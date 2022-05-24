@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"sort"
 
+	core "github.com/b582q9/go-ipfs/core"
+	coreapi "github.com/b582q9/go-ipfs/core/coreapi"
 	version "github.com/ipfs/go-ipfs"
-	core "github.com/ipfs/go-ipfs/core"
-	coreapi "github.com/ipfs/go-ipfs/core/coreapi"
 
 	options "github.com/ipfs/interface-go-ipfs-core/options"
 	id "github.com/libp2p/go-libp2p/p2p/protocol/identify"

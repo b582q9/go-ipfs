@@ -12,8 +12,8 @@ import (
 	routedhost "github.com/libp2p/go-libp2p/p2p/host/routed"
 	"go.uber.org/fx"
 
-	"github.com/ipfs/go-ipfs/core/node/helpers"
-	"github.com/ipfs/go-ipfs/repo"
+	"github.com/b582q9/go-ipfs/core/node/helpers"
+	"github.com/b582q9/go-ipfs/repo"
 )
 
 type P2PHostIn struct {

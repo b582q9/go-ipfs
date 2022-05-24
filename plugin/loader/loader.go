@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	coredag "github.com/b582q9/go-ipfs/core/coredag"
+	plugin "github.com/b582q9/go-ipfs/plugin"
+	fsrepo "github.com/b582q9/go-ipfs/repo/fsrepo"
 	config "github.com/ipfs/go-ipfs-config"
 	cserialize "github.com/ipfs/go-ipfs-config/serialize"
-	coredag "github.com/ipfs/go-ipfs/core/coredag"
-	plugin "github.com/ipfs/go-ipfs/plugin"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
 
 	ipld "github.com/ipfs/go-ipld-format"
 	logging "github.com/ipfs/go-log"

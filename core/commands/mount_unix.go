@@ -1,3 +1,4 @@
+//go:build !windows && !nofuse
 // +build !windows,!nofuse
 
 package commands
@@ -6,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
-	cmdenv "github.com/ipfs/go-ipfs/core/commands/cmdenv"
-	nodeMount "github.com/ipfs/go-ipfs/fuse/node"
+	cmdenv "github.com/b582q9/go-ipfs/core/commands/cmdenv"
+	nodeMount "github.com/b582q9/go-ipfs/fuse/node"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	config "github.com/ipfs/go-ipfs-config"

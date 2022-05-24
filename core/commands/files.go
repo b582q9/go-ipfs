@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/core/commands/cmdenv"
+	"github.com/b582q9/go-ipfs/core"
+	"github.com/b582q9/go-ipfs/core/commands/cmdenv"
 
 	"github.com/dustin/go-humanize"
 	bservice "github.com/ipfs/go-blockservice"

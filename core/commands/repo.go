@@ -11,10 +11,10 @@ import (
 	"sync"
 	"text/tabwriter"
 
+	cmdenv "github.com/b582q9/go-ipfs/core/commands/cmdenv"
+	corerepo "github.com/b582q9/go-ipfs/core/corerepo"
+	fsrepo "github.com/b582q9/go-ipfs/repo/fsrepo"
 	humanize "github.com/dustin/go-humanize"
-	cmdenv "github.com/ipfs/go-ipfs/core/commands/cmdenv"
-	corerepo "github.com/ipfs/go-ipfs/core/corerepo"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
 
 	cid "github.com/ipfs/go-cid"
 	bstore "github.com/ipfs/go-ipfs-blockstore"

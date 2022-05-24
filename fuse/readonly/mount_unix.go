@@ -1,11 +1,12 @@
+//go:build (linux || darwin || freebsd) && !nofuse
 // +build linux darwin freebsd
 // +build !nofuse
 
 package readonly
 
 import (
-	core "github.com/ipfs/go-ipfs/core"
-	mount "github.com/ipfs/go-ipfs/fuse/mount"
+	core "github.com/b582q9/go-ipfs/core"
+	mount "github.com/b582q9/go-ipfs/fuse/mount"
 )
 
 // Mount mounts IPFS at a given location, and returns a mount.Mount instance.

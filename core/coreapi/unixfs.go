@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ipfs/go-ipfs/core"
+	"github.com/b582q9/go-ipfs/core"
 
-	"github.com/ipfs/go-ipfs/core/coreunix"
+	"github.com/b582q9/go-ipfs/core/coreunix"
 
 	blockservice "github.com/ipfs/go-blockservice"
 	cid "github.com/ipfs/go-cid"

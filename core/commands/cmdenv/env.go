@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ipfs/go-ipfs/commands"
-	"github.com/ipfs/go-ipfs/core"
+	"github.com/b582q9/go-ipfs/commands"
+	"github.com/b582q9/go-ipfs/core"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	config "github.com/ipfs/go-ipfs-config"

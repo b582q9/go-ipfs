@@ -3,8 +3,8 @@ package resolve_test
 import (
 	"testing"
 
-	coremock "github.com/ipfs/go-ipfs/core/mock"
-	"github.com/ipfs/go-ipfs/namesys/resolve"
+	coremock "github.com/b582q9/go-ipfs/core/mock"
+	"github.com/b582q9/go-ipfs/namesys/resolve"
 
 	path "github.com/ipfs/go-path"
 )

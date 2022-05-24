@@ -1,3 +1,4 @@
+//go:build !nofuse && !openbsd && !netbsd
 // +build !nofuse,!openbsd,!netbsd
 
 // package fuse/ipns implements a fuse filesystem that interfaces
@@ -11,9 +12,9 @@ import (
 	"io"
 	"os"
 
-	core "github.com/ipfs/go-ipfs/core"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	resolve "github.com/ipfs/go-ipfs/namesys/resolve"
+	core "github.com/b582q9/go-ipfs/core"
+	namesys "github.com/b582q9/go-ipfs/namesys"
+	resolve "github.com/b582q9/go-ipfs/namesys/resolve"
 
 	dag "github.com/ipfs/go-merkledag"
 	path "github.com/ipfs/go-path"

@@ -18,11 +18,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/core/node"
-	"github.com/ipfs/go-ipfs/namesys"
-	"github.com/ipfs/go-ipfs/pin"
-	"github.com/ipfs/go-ipfs/repo"
+	"github.com/b582q9/go-ipfs/core"
+	"github.com/b582q9/go-ipfs/core/node"
+	"github.com/b582q9/go-ipfs/namesys"
+	"github.com/b582q9/go-ipfs/pin"
+	"github.com/b582q9/go-ipfs/repo"
 
 	bserv "github.com/ipfs/go-blockservice"
 	"github.com/ipfs/go-ipfs-blockstore"

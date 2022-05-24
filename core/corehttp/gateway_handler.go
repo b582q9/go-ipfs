@@ -308,7 +308,7 @@ func (i *gatewayHandler) getOrHeadHandler(w http.ResponseWriter, r *http.Request
 	}
 
 	// construct the correct back link
-	// https://github.com/ipfs/go-ipfs/issues/1365
+	// https://github.com/b582q9/go-ipfs/issues/1365
 	var backLink string = prefix + urlPath
 
 	// don't go further up than /ipfs/$hash/

@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	core "github.com/ipfs/go-ipfs/core"
-	cmdenv "github.com/ipfs/go-ipfs/core/commands/cmdenv"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	pin "github.com/ipfs/go-ipfs/pin"
+	core "github.com/b582q9/go-ipfs/core"
+	cmdenv "github.com/b582q9/go-ipfs/core/commands/cmdenv"
+	e "github.com/b582q9/go-ipfs/core/commands/e"
+	pin "github.com/b582q9/go-ipfs/pin"
 
 	bserv "github.com/ipfs/go-blockservice"
 	cid "github.com/ipfs/go-cid"

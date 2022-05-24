@@ -1,3 +1,4 @@
+//go:build (linux || darwin || freebsd) && !nofuse
 // +build linux darwin freebsd
 // +build !nofuse
 
@@ -10,7 +11,7 @@ import (
 	"os"
 	"syscall"
 
-	core "github.com/ipfs/go-ipfs/core"
+	core "github.com/b582q9/go-ipfs/core"
 	mdag "github.com/ipfs/go-merkledag"
 	path "github.com/ipfs/go-path"
 	ft "github.com/ipfs/go-unixfs"

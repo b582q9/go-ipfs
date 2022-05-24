@@ -1,3 +1,4 @@
+//go:build !noplugin && ((linux && cgo) || (darwin && cgo))
 // +build !noplugin
 // +build linux,cgo darwin,cgo
 
@@ -10,7 +11,7 @@ import (
 	"path/filepath"
 	"plugin"
 
-	iplugin "github.com/ipfs/go-ipfs/plugin"
+	iplugin "github.com/b582q9/go-ipfs/plugin"
 )
 
 func init() {

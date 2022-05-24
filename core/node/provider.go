@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ipfs/go-ipfs/core/node/helpers"
-	"github.com/ipfs/go-ipfs/pin"
-	"github.com/ipfs/go-ipfs/repo"
+	"github.com/b582q9/go-ipfs/core/node/helpers"
+	"github.com/b582q9/go-ipfs/pin"
+	"github.com/b582q9/go-ipfs/repo"
 
 	"github.com/ipfs/go-ipfs-provider"
 	q "github.com/ipfs/go-ipfs-provider/queue"

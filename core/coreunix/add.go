@@ -8,7 +8,7 @@ import (
 	gopath "path"
 	"strconv"
 
-	"github.com/ipfs/go-ipfs/pin"
+	"github.com/b582q9/go-ipfs/pin"
 
 	"github.com/ipfs/go-cid"
 	bstore "github.com/ipfs/go-ipfs-blockstore"

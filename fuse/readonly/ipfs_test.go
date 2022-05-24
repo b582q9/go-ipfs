@@ -1,3 +1,4 @@
+//go:build !nofuse && !openbsd && !netbsd
 // +build !nofuse,!openbsd,!netbsd
 
 package readonly
@@ -18,9 +19,9 @@ import (
 
 	"bazil.org/fuse"
 
-	core "github.com/ipfs/go-ipfs/core"
-	coreapi "github.com/ipfs/go-ipfs/core/coreapi"
-	coremock "github.com/ipfs/go-ipfs/core/mock"
+	core "github.com/b582q9/go-ipfs/core"
+	coreapi "github.com/b582q9/go-ipfs/core/coreapi"
+	coremock "github.com/b582q9/go-ipfs/core/mock"
 
 	fstest "bazil.org/fuse/fs/fstestutil"
 	chunker "github.com/ipfs/go-ipfs-chunker"

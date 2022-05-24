@@ -1,3 +1,4 @@
+//go:build !windows && !openbsd && !netbsd && !nofuse
 // +build !windows,!openbsd,!netbsd,!nofuse
 
 package node
@@ -8,10 +9,10 @@ import (
 	"strings"
 	"sync"
 
-	core "github.com/ipfs/go-ipfs/core"
-	ipns "github.com/ipfs/go-ipfs/fuse/ipns"
-	mount "github.com/ipfs/go-ipfs/fuse/mount"
-	rofs "github.com/ipfs/go-ipfs/fuse/readonly"
+	core "github.com/b582q9/go-ipfs/core"
+	ipns "github.com/b582q9/go-ipfs/fuse/ipns"
+	mount "github.com/b582q9/go-ipfs/fuse/mount"
+	rofs "github.com/b582q9/go-ipfs/fuse/readonly"
 
 	logging "github.com/ipfs/go-log"
 )

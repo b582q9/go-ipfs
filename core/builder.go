@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ipfs/go-ipfs/core/bootstrap"
-	"github.com/ipfs/go-ipfs/core/node"
+	"github.com/b582q9/go-ipfs/core/bootstrap"
+	"github.com/b582q9/go-ipfs/core/node"
 
 	"github.com/ipfs/go-metrics-interface"
 	"go.uber.org/fx"

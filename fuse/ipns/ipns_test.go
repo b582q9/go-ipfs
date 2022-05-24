@@ -1,3 +1,4 @@
+//go:build !nofuse && !openbsd && !netbsd
 // +build !nofuse,!openbsd,!netbsd
 
 package ipns
@@ -15,7 +16,7 @@ import (
 
 	"bazil.org/fuse"
 
-	core "github.com/ipfs/go-ipfs/core"
+	core "github.com/b582q9/go-ipfs/core"
 
 	fstest "bazil.org/fuse/fs/fstestutil"
 	racedet "github.com/ipfs/go-detect-race"

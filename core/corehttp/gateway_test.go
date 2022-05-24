@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
+	core "github.com/b582q9/go-ipfs/core"
+	"github.com/b582q9/go-ipfs/core/coreapi"
+	namesys "github.com/b582q9/go-ipfs/namesys"
+	repo "github.com/b582q9/go-ipfs/repo"
 	version "github.com/ipfs/go-ipfs"
-	core "github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/core/coreapi"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	repo "github.com/ipfs/go-ipfs/repo"
 
 	datastore "github.com/ipfs/go-datastore"
 	syncds "github.com/ipfs/go-datastore/sync"
